@@ -1,0 +1,349 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 30px;
+  border: 1px solid whitesmoke;
+}
+input {
+  border-style: hidden;
+  padding: 5px 20px;
+}
+.Nabeel {
+  padding: 5px 10px;
+  border: 2px solid black;
+  text-align: center;
+  justify-content: center;
+}
+.Nabeel a {
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500px;
+}
+.firstdiv {
+  padding: 150px 0px;
+  background-color: cadetblue;
+}
+.container .div1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.letter {
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 255, 0.459);
+  transition: all 1s ease;
+}
+.icons a {
+  justify-content: right;
+}
+.letter:hover {
+  transform: perspective(1.1);
+  transition: 1s;
+}
+.col {
+  display: flex;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.icon i {
+  font-size: 30px;
+  padding: 0px 30px;
+}
+.icon .fa-truck {
+  color: darkmagenta;
+}
+
+.icon .fa-redo {
+  color: darkmagenta;
+}
+.icon .fa-question-circle {
+  color: darkmagenta;
+}
+.sec2 {
+  padding-bottom: 50px;
+  border: 2px solid whitesmoke;
+}
+.imagessales {
+  padding: 50px 0px;
+  background-color: whitesmoke;
+}
+.titbeg {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 70px;
+}
+.tit {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 70px;
+}
+.titend {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 70px;
+}
+.sub h1 {
+  text-align: center;
+  padding: 80px 0px;
+}
+.bigsale {
+  padding: 50px 50px;
+}
+.bigsale .SDF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.carl {
+  color: brown;
+}
+h5 {
+  padding-bottom: 30px;
+}
+p {
+  font-size: 20px;
+  color: rgba(24, 23, 22, 0.377);
+}
+.section5 .btn-primary {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  letter-spacing: 3px;
+}
+.section5 .btn-primary:hover {
+  background-color: rgb(235, 79, 87);
+}
+.sale {
+  text-align: center;
+  padding-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+.imfo {
+  padding: 20px 0px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex p {
+  font-size: 15px;
+}
+.fake {
+  padding-bottom: 20px;
+}
+
+.call {
+  padding-bottom: 20px;
+}
+.Subscribe {
+  padding-top: 30px;
+}
+.sect10 {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+label {
+  position: relative;
+}
+.emailsend {
+  border: 1px solid wheat;
+  width: 300px;
+  height: 50px;
+  padding: 0 16px;
+}
+label botton {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  bottom: 0;
+  background-color: yellowgreen;
+  border: 1px solid black;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 1s ease;
+}
+label botton:hover {
+  background-color: brown;
+  transition: 1s;
+}
+.lin {
+  height: 10px;
+  width: 2px;
+  background-color: cornflowerblue;
+}
+.footer-copyright {
+  margin-bottom: 20px;
+}
+.Nav2 {
+  padding: 20px 30px;
+  background-color: rgba(240, 255, 255, 0.438);
+}
+.text1 {
+  font-size: 20px;
+}
+.textteam {
+  padding: 50px 30px;
+  text-align: center;
+}
+.linn {
+  height: 3px;
+  width: 50px;
+  background-color: brown;
+  margin: 40px auto;
+}
+.all-in-div .teamasd {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px 50px;
+}
+.categories {
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  padding: 10px 20px;
+}
+.categories .asd {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.cloth {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  justify-content: center;
+}
+.clt {
+  text-align: center;
+  border: 1px solid rgba(51, 44, 44, 0.507);
+  justify-content: center;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  margin: 10px 20px;
+}
+.Filtter {
+  margin-top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  padding: 20px 10px;
+}
+.color {
+  padding-top: 30px;
+}
+.rt {
+  position: relative;
+}
+.rt .pat1 h1 {
+  position: absolute;
+  bottom: 80px;
+  opacity: 0;
+  transition: all 1s ease;
+}
+.rt .pat1:hover h1 {
+  opacity: 1;
+}
+.rt .pat1 p {
+  position: absolute;
+  bottom: 30px;
+  opacity: 0;
+  transition: all 1s ease;
+}
+.rt .pat1:hover p {
+  opacity: 1;
+  color: brown;
+  padding: 10px;
+}
+.vvvvv {
+  padding-bottom: 100px;
+}
+.lisss {
+  display: flex;
+  justify-content: space-between;
+}
+.con {
+  display: flex;
+  justify-content: space-between;
+}
+.add-to {
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+.cvb {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.btn-group {
+  padding-top: 30px;
+}
+.bott {
+  padding-top: 30px;
+}
+.code {
+  padding-top: 30px;
+}
+.teexxtt {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.proc {
+  padding-top: 50px;
+}
+.ddddd {
+  margin-bottom: 100px;
+}
+.tologin{
+  padding: 10px 30px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.colorsect{
+  background-color: aquamarine;
+}
+.gggggg{
+  padding: 30px 30px;
+}
+.thank{
+  padding-bottom: 50px;
+}
+.getintouch{
+  border: 1px solid rgba(0, 0, 0, 0.384);
+ 
+}
+.aaaaaa{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: royalblue;
+  border-radius: 5px;
+  padding: 10px 10px;
+ 
+}
+.aaaaaa:hover{
+  background-color: chartreuse;
+  transition: 1s;
+  transform: scale(0.8);
+}
+.sect10{
+  margin-top: 100px;
+}
